@@ -92,3 +92,9 @@ figcaption {
 .col-3 {
   background: #ccc;
 }
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+/* Any class with "col-" will be affected */
